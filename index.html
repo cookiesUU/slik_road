@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>丝路遗韵·西北风光</title>
+    <link rel="preload" href="fonts/MaShanZheng-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <style> 
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+            margin: 0 auto;
+        }
+        
+   @font-face {
+    font-family: 'HeadlineFont';
+    src:url('fonts/MaShanZheng-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+   @font-face {
+    font-family: 'MainBodyFont_1';
+    src:url('fonts/NotoSerifSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    
+}
+
+     </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <script >
+    // 初始化canvas大小
+    canvas.width=window.innerWidth;
+    canvas.height=window.innerHeight;
+    </script>
+    <script src="js/setting.js"></script>
+    <script src="js/var.js"></script>   
+    <script src="js/functions.js"></script>
+    <script src="js/graphics-v3.js"></script>
+    <script src="js/Rect.js"></script>
+    <script src="js/convertMouse.js"></script>
+    <script src="js/sprites.js"></script>
+    <script src="js/painters.js"></script>
+    <script src="js/behaviors.js"></script>
+    <script src="js/scene3.js"></script> 
+    <script src="js/scene2.js"></script>
+    <script src="js/scene1.js"></script>
+    
+</body>
+</html>
